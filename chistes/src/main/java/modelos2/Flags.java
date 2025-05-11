@@ -114,4 +114,17 @@ public class Flags {
         this.explicit = explicit;
     }
 
+    
+    @Override
+    public String toString() {
+        return "Flags{" +
+                "nsfw=" + nsfw +
+                ", religious=" + religious +
+                ", political=" + political +
+                ", racist=" + racist +
+                ", sexist=" + sexist +
+                ", explicit=" + explicit +
+                '}';
+    }
+
 }
