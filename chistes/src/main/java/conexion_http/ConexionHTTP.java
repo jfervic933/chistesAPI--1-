@@ -17,8 +17,6 @@ public class ConexionHTTP {
     public static String peticionHttpGet(String urlParaVisitar) throws IOException {
        StringBuilder lineas = new StringBuilder();
         try {
-            // Aquí se guardará la respuesta (texto del json)
-            //String textoResultado = "";
 
             URL url = new URI(urlParaVisitar).toURL();
             

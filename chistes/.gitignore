@@ -1,0 +1,17 @@
+# Ignorar archivos de configuración de IDE
+.idea/
+*.iml   
+# Ignorar archivos de compilación
+*.class
+# Ignorar archivos de dependencias
+*.jar
+# Ignorar archivos de logs
+*.log
+# Ignorar archivos de caché
+*.cache
+# Ignorar archivos de entorno
+.env
+# Ignorar archivos de sistema
+.DS_Store
+# Ignorar carpeta target
+target/
