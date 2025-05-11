@@ -31,7 +31,6 @@ public class ConexionHTTP {
                 while ((linea = flujoEntrada.readLine()) != null) {
                     System.out.println(linea);
                     lineas.append(linea);
-                    //textoResultado+=linea;
                 }
             }
             
