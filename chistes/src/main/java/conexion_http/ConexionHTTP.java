@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 public class ConexionHTTP {
 
-    // Este método obtiene en un String la respuesta html completa
+    // Este método obtiene en un String la respuesta del servidor a la petición GET
     public static String peticionHttpGet(String urlParaVisitar) throws IOException {
        StringBuilder lineas = new StringBuilder();
         try {
